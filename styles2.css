@@ -210,7 +210,21 @@ hr{
         margin-top:30px !important;
     }
 }
+@media only screen and (max-width: 400px) {
+    .language {
+        font-size:14px;
+    }
+    .country {
+        margin-left: 22px;
+    }
+    .nav ul li {
+        padding: 5px;
+    }
+    .list_class {
+        padding-inline-start: 0px!important;
+    }
 
+}
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
